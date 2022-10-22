@@ -1,7 +1,7 @@
 import './App.css';
 import Message from './message';
 
-function App() {
+function App(props) {
   const name = "Hello Olga!"
   return (
    <div>
