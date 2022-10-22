@@ -1,11 +1,11 @@
 import './App.css';
-import Message from './Message';
+import Message from './message';
 
 function App() {
   const name = "Hello Olga!"
   return (
    <div>
-    <Message name {name} />
+    <Message name={name} />
    </div>
   );
 }
