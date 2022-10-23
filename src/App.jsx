@@ -32,7 +32,7 @@ function App() {
     if (lastAuthor && lastAuthor.author) {
       setMessageList(prevState => [...prevState, {
         id: giveLastId(prevState),
-        text: `Author's message ${lastAuthor.author} sent`
+        text: `Message of author ${lastAuthor.author} sent`
       }])
     }
   }
@@ -50,7 +50,7 @@ function App() {
         return (
           <div key={message.id}>
             {message.author && <p>Author: {message.author}</p>}
-            <p>{message.author && <a>Text</a>} {message.text}</p>
+            <p>{message.author && <span>Text:</span>} {message.text}</p>
           </div>
         )
       })}
