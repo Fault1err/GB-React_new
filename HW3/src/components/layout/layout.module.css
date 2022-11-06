@@ -8,7 +8,7 @@
 
 .header {
   flex: none;
-  background-color: #17212b;
+  background-color: #6e9ece;
   border-bottom: 1px solid #000;
 }
 
@@ -22,7 +22,7 @@
 .chats {
   overflow-y: auto;
   width: 20%;
-  background-color: #17212b;
+  background-color: #709fce;
   border-right: 1px solid #000;
 }
 
@@ -31,7 +31,7 @@
   display: flex;
   flex-direction: column;
   width: 80%;
-  background-color: #0e1621;
+  background-color: #598ace;
 }
 
 .messages > div:nth-child(1) {
@@ -43,5 +43,5 @@
 .messages > div:nth-child(2) {
   height: 50px;
   flex: none;
-  background-color: #17212b;
+  background-color: #384f66;
 }
